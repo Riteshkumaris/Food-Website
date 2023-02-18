@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background: url('img/ret.jpg');
+            margin:0px;
+            padding:0px;
+            color:white;
+            height:100px;
+        }
+        .right{
+        
+            display:inline-block;
+            position:absolute;
+            right:35px;
+            top:35px;
+
+
+        }
+        .mid{
+    
+            display:block;
+            width: 50%;
+          
+        margin: 29px auto;
+
+        }
+        .left{
+      
+        position :absolute;
+        left:15px;
+        top:15px;
+font-size: 7px;
+            display:inline-block;
+
+
+        }
+        img{
+            width:55px;
+        }
+        .navbar{
+            background-color: rgb(13, 13, 15);
+        }
+        .navbar ul{
+            overflow:auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin:14px 20px;
+        }
+        .navbar li a{
+            padding:3px 3px;
+            text-decoration: none;
+            color:white;
+        }
+        .search{
+            float:right;
+            color:white;
+            padding :17px 75px;
+        }
+        .navbar input{
+            border:2px solid rgb(176, 33, 49);
+            border-radius: 12px;
+            padding :3px 17px;
+            width: 120px
+        }
+        .navbar li a:hover{
+            color:red;
+        }
+        .btn{
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 3px;
+            color: solid red;
+        }
+        .btn a:hover{
+            color:red;
+        }
+        .cont{
+          border: 2px solid white;
+            width:458px;
+            height:280px;
+            margin:auto;
+            padding:4px;
+            text-align: center;
+
+        }
+        .cont h1{
+          text-align: center;
+        }
+        .for{
+       text-align: center;
+       padding:2px;
+     
+        }
+        .by{
+            margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 10px;
+        cursor: pointer;
+        text-align: center;
+        }
+      
+        .fr{
+            position:absolute;
+            top:590px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/pngtree-restaurant-logo-design-vector-template-image_388753.jpg">
+            <h2>Summer 69</h2>
+
+        </div>
+        <div class="mid">
+            <header>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Serves</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <div class="search">
+                            <input type="text" name="Search" id="Search" placeholder="search the favorite food ">
+                        </div>
+                    </ul>
+                </nav>
+            </header>
+
+        </div>
+        <div class="right">
+            <button class="btn"><a href="#">Call US</a></button>
+            <button class="btn"><a href="#">Email US</a></button>
+
+        </div>
+    </header>
+    <div class="cont">
+        <h1>Order your favorite food</h1>
+        <form>
+            <div class="for">
+            <input type="text" placeholder="Enter your name"></div>
+            <div class="for">
+            <input type="text" placeholder="Enter your food"><select name="food item" id="food item">
+                <option value="Burger">Burger</option>
+                <option value="Burger">Pizza</option>
+                <option value="Burger">Snack</option>
+                <option value="Burger">Cold drinks</option>
+                <option value="Burger">Momo</option>
+            </select></div>
+
+           
+            <div class="for">
+            <input type="text" placeholder="Enter your address"></div>
+            <div class="for">
+            <input type="text" placeholder="Enter your phone number"></div>
+            <div class="for">
+            <input type="text" placeholder="Enter your Email"></div>
+            <center><button class="by"><a href="#">Submit</a></button></center>
+        </form>
+    </div>
+    <footer>
+        <div class="fr">
+
+        <textarea name-"feedback" id="101 " placeholder="Please give your valuable feedback "></textarea></div>
+    </footer>
+    
+</body>
+</html>
